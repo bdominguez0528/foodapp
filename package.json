@@ -1,0 +1,36 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "dependencies": {
+    "@kagronick/kgauge-vue": "^1.0.7",
+    "@fullcalendar/bootstrap": "^4.3.0",
+    "@fullcalendar/core": "^4.3.1",
+    "bootstrap": "4.3.1",
+    "css-loader": "^3.2.0",
+    "install": "^0.13.0",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "npm": "^6.11.3",
+    "popper.js": "^1.15.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.40.2",
+    "webpack-bundle-tracker": "^0.4.2-beta",
+    "webpack-cli": "^3.3.9",
+    "webpack-merge": "^4.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer-core": "~6.0.1",
+    "connect-livereload": "~0.6.1",
+    "cssnano": "~4.1.10",
+    "pixrem": "~5.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "watch": "webpack --config webpack.dev.js --watch",
+    "build": "webpack --config webpack.prod.js --progress --colors",
+    "build:production": "NODE_ENV=production webpack --config webpack.prod.js --progress --colors"
+  }
+}
