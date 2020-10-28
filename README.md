@@ -6,14 +6,31 @@
 **Requirements:**
 
 - Python 3.6+
+- Python Virtualenv.
+- PostgresSQL running
+- NodeJS installed
 
 Django version: 3.0
 
 ## Project Setup
 
+Create a Postgres database.
+
+Create a .env project in the root of the project.
+
+
 ### Unix Linux systems
 
-You need to have a database called sidoc without password in your local instance, otherwise you will have to create a .env with DATABASE_URL variable defined.
+Add database information in .env file with information like this:
+
+DATABASE_URL=postgres://example_user:password@localhost:5432/db_name
+
+Where:
+
+User: example_user
+Password: password
+Database Name: db_name
+
 
 ```plain
 # Install JS requirements
