@@ -1,6 +1,6 @@
 # Django App Bootstrap
 
-[![](https://github.com/swappsco/django-app-bootstrap/workflows/py.test/badge.svg)](https://github.com/swappsco/sidoc/workflows/py.test/badge.svg)
+[![](https://github.com/swappsco/foodapp/workflows/py.test/badge.svg)](https://github.com/swappsco/foodapp/workflows/py.test/badge.svg)
 [![](https://cdn.swapps.com/uploads/2020/07/coverage100.png)](https://cdn.swapps.com/uploads/2020/07/coverage100.png)
 
 **Requirements:**
